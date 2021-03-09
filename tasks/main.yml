@@ -1,0 +1,6 @@
+---
+- include: tarefa1.yml
+  when: incluir_tarefa1
+
+- include: tarefa2.yml
+  when: incluir_tarefa2
